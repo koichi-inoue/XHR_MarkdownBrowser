@@ -32,7 +32,6 @@ SampleDocument 日本語
 アスタリスクまたはアンダースコアを２つ使って囲むと**より強い強調** になります。
 
 
-
 ### リンク ###
 
 Markdownには **インライン** と **リファレンス**  という二つのリンクスタイルがあります。
@@ -42,10 +41,11 @@ URLの後に""でテキストを囲むことでタイトル表現も可能です
 [example.com](https://www.exampel.com/).
 
 * リファレンススタイルは、名前と番号を使って定義したリンクを参照するものです。
-    * [グーグル][GOOGLE]
-    * [ヤフー][YAHOO]
-    * [GOOGLE]: https://www.google.co.jp "Google"
-    * [YAHOO]: https://www.yahoo.co.jp "Yahoo!" 
+    * [GOOGLE][1]
+    * [YAHOO][2]
+
+[1]: https://www.google.co.jp "Google"
+[2]: https://www.yahoo.co.jp "Yahoo!" 
 
 ### 自動リンク ###
 
