@@ -1,8 +1,7 @@
 # Markdown Sample
-Sample Document 日本語
-
-これは Markdown のサンプルです。  
-文字コードはUTF-8、改行コードはLFです。  
+Sample Document 日本語  
+文字コード:UTF-8  
+改行コード:LF  
 
 
 ## 基本
