@@ -1,7 +1,7 @@
 // インスタンスを作成
 var xhr = new XMLHttpRequest();
 // 非同期リクエスト async true
-xhr.open('GET', 'test.md', true);
+xhr.open('GET', 'sample.md', true);
 // サーバへリクエストを送信 （ null ）
 xhr.send();
 
